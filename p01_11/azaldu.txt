@@ -1,0 +1,21 @@
+Honako aldagaiak izanik:
+
+int a, b=1, c, d, soldata=1000, kontua, m, batura, nota1=5, nota2=9,p;
+string k, izena;
+
+Azaldu zein den esleipen hauetatik zuzena eta zein okerra:
+
+    1. a+b = a+b; = Okerra, ezkerreko aldea ez da aldagai bat
+    2. izena = PEIO; = Okerra, komatxoak falta dira
+    3. soldata = soldata + 1; = Zuzena
+    4. kontua = 45000; = Zuzena
+    5. k=k*4; = Okerra, String motatakoa da ezin da eragiketa egin
+    6. b=18-b; = Zuzena
+    7. c=x-8; = Okerra, x aldagaia ez dago definituta
+    8. 5=m; = Okerra, ezkerreko aldea ez da aldagai bat
+    9. batura = nota1+nota2; = Zuzena
+    10. p+5=14; = Okerra, ezkerreko aldea ez da aldagai bat
+    11. k="Ainitze"; = Zuzena
+    12. izena=k; = Zuzena
+    13. izena= "Jokin" + k; = Zuzena
+    14. b=k; = Okerra, b int motatakoa da eta k string motatakoa
