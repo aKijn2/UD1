@@ -19,3 +19,4 @@ Azaldu zein den esleipen hauetatik zuzena eta zein okerra:
     12. izena=k; = Zuzena
     13. izena= "Jokin" + k; = Zuzena
     14. b=k; = Okerra, b int motatakoa da eta k string motatakoa
+    

@@ -1,71 +1,43 @@
 Azaldu zein izango diren exprdaio hauen emaitzak:
 
 a) ((4-2) * (5+1)/2) > 2 - (4+3)
-
-(4-2) = 2
-(5+1) = 6
-2 * 6 = 12
-12 / 2 = 6
-2 - (4+3) = 2 - 7 = -5
-6 > -5 zuzena da
-Erantzuna: egia
+(2)*(6)/2) > 2 - (7)
+(12/2) > 2 -7
+Emitza= 6 > 5
 
 b) (6+3) > 8 && (6-1) * 2 < 8 || 2*3 ==8
+(9) > 8 && (5) * 2 < 8 || 6 ==8
+9 > 8 && 10 < 8 || 6 ==8
+false && false || false
+false || false
+Emaitza= false
+d) (1.0 < X) && (X < Z + 7.0)  non X=7 eta Z=2
+(1.0 < 7) && (7 < 9) 
+true && true
+Emaitza= true
 
-(6+3) = 9
-9 > 8 zuzena da
-(6-1) = 5
-5 * 2 = 10
-10 < 8 da faltsua
-2 * 3 = 6
-6 == 8 da faltsua
-egia && faltsua || faltsua
-egia && faltsua da faltsua
-faltsua || faltsua da faltsua
-Erantzuna: faltsua
+e) PI * X * X > Y || 2 * PI * X <= Z  non X=1, Y=4, Z=10 eta PI=3.14
+3,14 * 1 * 1 > || 2 * 3,14 * 1 <= 10
+3,14 * 1 > || 6,28 * 1 <=10
+3,14 > || 6,28 <=10
+false  || true
+Emaitza= true
 
-d) (1.0 < X) && (X < Z + 7.0) non X=7 y Z=2
+f) X >3 && Y==4 || X + Y <=Z               non X=1, Y=4, Z=10
+1 > 3 && 4 || 1 + 4 <=10
+false || true
+Emaitza= true
 
-1.0 < 7 egia da
-Z + 7.0 = 2 + 7.0 = 9.0
-7 < 9.0 egia da
-egia && egia = egia da
-Erantzuna: egia
+g) X >3 && (Y==4 || X + Y <=Z)          non X=1, Y=4, Z=10
+1 > 3 && 4==4 || 1+4 <=10
+false && true || true
+false && true
+Emaitza: false
 
-e) PI * X * X > Y || 2 * PI * X <= Z non X=1, Y=4, Z=10 y PI=3.14
-
-PI * X * X = 3.14 * 1 * 1 = 3.14
-3.14 > 4 da faltsua
-2 * PI * X = 2 * 3.14 * 1 = 6.28
-6.28 <= 10 zuzegiaena da
-faltsua || egia = egia da
-Erantzuna: egia
-
-f) X >3 && Y==4 || X + Y <=Z  non X=1, Y=4, Z=10
-
-x > 3 faltsua da
-Y == 4 egia da
-X + Y <= Z egia da
-Erantzuna egia
-
-g) X >3 && (Y==4 || X + Y <=Z)  non X=1, Y=4, Z=10
-
-X > 3 faltsua da
-Y == 4 egia da
-X + Y <= Z egia da
-Erantzuna egia
-
-h) (!(2 * X == Y/2 || (PI - E) * Z > Y)) == (!( Y/2 == 2*X) && (!(Y < (PI-E) * Z ))) non X=1, Y=4,  Z=10, PI=6, E=3
-
-2 * X == Y/2 egia da
-(PI - E) * Z > Y egia da
-2 * X == Y/2 || (PI - E) * Z > Y egia da
-!(2 * X == Y/2 || (PI - E) * Z > Y) faltsua da
-
-Y/2 == 2*X egia da
-Y < (PI - E) * Z egia da
-!(Y/2 == 2*X) faltsua da
-!(Y < (PI - E) * Z) faltsua da
-(!( Y/2 == 2*X) && (!(Y < (PI-E) * Z ))) faltsua da
-
-Erantzuna: egia
+h) (!(2 * X == Y/2 || (PI - E) * Z > Y)) == (!( Y/2 == 2*X) && (!(Y < (PI-E) * Z ))) 
+(!(2*1 == 4/2|| (3,14 - 3) * 10 > 4)) == (!(4 / 2 == 2*1 ) && )(!(4 < (3,14-3 )* 10)))
+(!(2 == 2|| (0,14) * true)) == (!(true) && )(!(true))
+(false && true) == ! true) && )(!(true))
+false == false && false
+false == false
+Emaitza= true
