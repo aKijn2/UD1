@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-public class celciusFarenheintera {
+public class celciusFarenera {
 
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
